@@ -7,11 +7,19 @@
   background-size: cover;
   text-align: center;
   color: #333;
+  font-size: clamp(1rem, 0.8239rem + 0.7512vw, 1.5rem);
 }
 
 .main {
   display: flex;
   flex-direction: column;
+}
+
+.description, .others, .schedule-main-container {
+  padding-left: clamp(1.875rem, -1.8662rem + 15.9624vw, 12.5rem);
+  padding-right: clamp(1.875rem, -1.8662rem + 15.9624vw, 12.5rem);
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 img, iframe {
@@ -51,7 +59,7 @@ img, iframe {
   font-family: Saint Amour Script, sans-serif;
   font-weight: 200;
   text-transform: none;
-  font-size: 90px;
+  font-size: clamp(5.625rem, 3.2042rem + 10.3286vw, 12.5rem);
 }
 
 .intro__date-container {
@@ -79,7 +87,7 @@ img, iframe {
 }
 
 .date-container-subtitle {
-  font-size: 20px;
+  font-size: clamp(1.25rem, 0.8979rem + 1.5023vw, 2.25rem);
 }
 
 .description {
@@ -87,7 +95,6 @@ img, iframe {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 30px;
   display: flex;
   flex-direction: column;
   gap: 30px;
@@ -107,16 +114,17 @@ img, iframe {
   font-family: Saint Amour Script, sans-serif;
   font-weight: 200;
   text-transform: none;
-  font-size: 75px;
+  font-size: clamp(4.6875rem, 3.6972rem + 4.2254vw, 7.5rem);
   letter-spacing: 3px;
   word-spacing: 20px;
-  line-height: 65%;
+  line-height: 75%;
 }
 
 .description-photos {
   display: flex;
   flex-direction: column;
   gap: 30px;
+  align-items: center;
 }
 
 .both-photo, .ind-photo {
@@ -124,7 +132,8 @@ img, iframe {
   border-radius: 20px;
   inline-size: 100%;
   block-size: auto;
-  max-block-size: 600px;
+  max-block-size: 900px;
+  max-inline-size: 900px;
 }
 
 .others {
@@ -132,7 +141,6 @@ img, iframe {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 30px;
   border-block-start: #88995b 3px solid;
   border-block-end: #88995b 3px solid;
 }
@@ -209,6 +217,7 @@ img, iframe {
 
 .messenger-icon-img {
   block-size: 100%;
+  border-radius: 50%;
 }
 
 .schedule {
@@ -226,7 +235,6 @@ img, iframe {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 30px 35px;
   gap: 30px;
 }
 
@@ -250,7 +258,7 @@ img, iframe {
 
 .time {
   font-weight: 700;
-  font-size: 18px;
+  font-size: clamp(1.125rem, 0.9049rem + 0.939vw, 1.75rem);
 }
 
 .schedule-desc {
@@ -291,7 +299,7 @@ img, iframe {
   font-size: 14px;
 }
 
-.description-date {
+.description-date, .schedule-item {
   font-weight: 700;
-  font-size: 18px;
+  font-size: clamp(1.125rem, 0.9049rem + 0.939vw, 1.75rem);
 }
