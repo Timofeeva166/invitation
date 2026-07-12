@@ -1,0 +1,34 @@
+@font-face {
+  font-family: CormorantInfant-Light;
+  src: url(./CormorantInfant-Light.ttf);
+  font-weight: 200;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: CormorantInfant-Bold;
+  src: url(./CormorantInfant-Bold.ttf);
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: CormorantInfant-Medium;
+  src: url(./CormorantInfant-Medium.ttf);
+  font-weight: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Honey;
+  src: url(./honeyscriptcyr_light.otf);
+  font-weight: 200;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Saint Amour Script;
+  src: url(./Saint\ Amour\ Script.otf);
+  font-weight: 200;
+  font-display: swap;
+}

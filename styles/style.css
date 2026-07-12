@@ -1,0 +1,296 @@
+.page {
+  font-family: CormorantInfant-Light, sans-serif;
+  background-image: url(../images/background.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+img, iframe {
+  inline-size: 100%;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: space-around;
+  block-size: 100vh;
+  min-block-size: 784px;
+  text-transform: uppercase;
+}
+
+.lemons {
+  inline-size: 200px;
+}
+
+.lemons-down {
+  align-self: end;
+}
+
+.intro-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.intro-container::before, .intro-container::after {
+  content: "✦";
+}
+
+.intro__names {
+  font-family: Saint Amour Script, sans-serif;
+  font-weight: 200;
+  text-transform: none;
+  font-size: 90px;
+}
+
+.intro__date-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  inline-size: 60vi;
+}
+
+.date-container {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.date-text {
+  border-block-start: 1px solid #000;
+  border-block-end: 1px solid #000;
+  padding: 5px;
+}
+
+.date-time {
+  font-size: 40px;
+}
+
+.date-container-subtitle {
+  font-size: 20px;
+}
+
+.description {
+  background-image: url(../images/lemons3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.description-container {
+  background-color: #fff;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.title {
+  font-family: Saint Amour Script, sans-serif;
+  font-weight: 200;
+  text-transform: none;
+  font-size: 75px;
+  letter-spacing: 3px;
+  word-spacing: 20px;
+  line-height: 65%;
+}
+
+.description-photos {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.both-photo, .ind-photo {
+  object-fit: cover;
+  border-radius: 20px;
+  inline-size: 100%;
+  block-size: auto;
+  max-block-size: 600px;
+}
+
+.others {
+  background-image: url(../images/lemons4.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 30px;
+  border-block-start: #88995b 3px solid;
+  border-block-end: #88995b 3px solid;
+}
+
+.others-main-container {
+  background-color: #fff;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 50px;
+}
+
+.others-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.subtitle {
+  font-size: 30px;
+  color: #88995b;
+}
+
+.dresscode {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.pallete {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.color {
+  display: block;
+  border-radius: 50%;
+  block-size: 40px;
+  inline-size: 40px;
+}
+
+.yellow {
+  background-color: #eee258;
+}
+
+.green {
+  background-color: #88995b;
+}
+
+.beige {
+  background-color: #dfbc9e;
+}
+
+.brown {
+  background-color: #8b6d4b;
+}
+
+.dark-brown {
+  background-color: #4f4838;
+}
+
+.messenger-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.messenger-icon {
+  block-size: 50px;
+  inline-size: 50px;
+}
+
+.messenger-icon-img {
+  block-size: 100%;
+}
+
+.schedule {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  background-image: url(../images/lemons5.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.schedule-main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 35px;
+  gap: 30px;
+}
+
+.schedule-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.schedule-list-item {
+  display: flex;
+  gap: 40px;
+}
+
+.schedule-container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  text-align: start;
+}
+
+.time {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.schedule-desc {
+  margin-top: 15px;
+}
+
+.map {
+  block-size: 500px;
+  inline-size: 95%;
+  align-self: center;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.timer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 50px 30px;
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.countdown {
+  font-size: 45px;
+  display: flex;
+  align-self: center;
+  gap: 20px;
+}
+
+.countdown-item {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.timer-text {
+  font-size: 14px;
+}
+
+.description-date {
+  font-weight: 700;
+  font-size: 18px;
+}
