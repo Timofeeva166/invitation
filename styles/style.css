@@ -31,7 +31,7 @@ img, iframe {
   flex-direction: column;
   justify-content: center;
   justify-content: space-around;
-  min-block-size: 900px;
+  min-block-size: 784px;
   block-size: 100vh;
   text-transform: uppercase;
 }
